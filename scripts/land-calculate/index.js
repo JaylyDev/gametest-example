@@ -7,6 +7,7 @@
  * @constructor
  * @writter @Nperma
  */
+
 export class MATH {
     constructor(value) {
         /**
