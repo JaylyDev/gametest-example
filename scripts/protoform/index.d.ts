@@ -7,7 +7,7 @@ interface FormResponse {
 declare class ProtoForm {
   constructor(options: {
     title: string;
-    fields?: [string, any[]][];
+    fields?: [any | any[]][];
     body?: string;
     btn1?: string;
     btn2?: string;
